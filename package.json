@@ -1,0 +1,26 @@
+{
+  "name": "fp_study_notes_forms_and_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "^27.5.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "dev": "concurrently \"watchify ./JSindex.js -o bundle.js\" \"python -m http.server\" \"jest --watchAll\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HWMooo/forms_ands_APIS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HWMooo/forms_ands_APIS/issues"
+  },
+  "homepage": "https://github.com/HWMooo/forms_ands_APIS#readme"
+}
