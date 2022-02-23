@@ -1,0 +1,20 @@
+body{
+    background-color: lightblue;
+}
+
+section{
+    position: absolute;
+    background-color: rgb(149, 238, 183);
+    width: 50%;
+    height: 25%;
+}
+
+.dropdown{
+    background-color: white;
+    overflow: hidden;
+    width: 0;
+}
+
+.dropdown:hover{
+    width: 100%;
+}
